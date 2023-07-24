@@ -20,6 +20,4 @@ services:
     volumes:
       - './proyecto-docker-laravel10:/app'
     depends_on:
-      - mariadb
-
-      # todo correcto
+      - mariadb    
